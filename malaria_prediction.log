@@ -1,0 +1,143 @@
+2025-08-17 07:22:06,972 - __main__ - INFO - Starting malaria prediction pipeline
+2025-08-17 07:22:06,975 - __main__ - ERROR - Error loading data: [Errno 2] No such file or directory: 'data\\CLEANEDDATA.xlsx'
+2025-08-17 07:22:06,976 - __main__ - ERROR - Pipeline failed: [Errno 2] No such file or directory: 'data\\CLEANEDDATA.xlsx'
+2025-08-17 07:27:17,727 - __main__ - INFO - Starting malaria prediction pipeline
+2025-08-17 07:27:17,728 - __main__ - ERROR - Error loading data: [Errno 2] No such file or directory: '/CLEANEDDATA.xlsx'
+2025-08-17 07:27:17,728 - __main__ - ERROR - Pipeline failed: [Errno 2] No such file or directory: '/CLEANEDDATA.xlsx'
+2025-08-17 07:29:54,065 - __main__ - INFO - Starting malaria prediction pipeline
+2025-08-17 07:29:54,068 - __main__ - ERROR - Error loading data: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+2025-08-17 07:29:54,069 - __main__ - ERROR - Pipeline failed: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+2025-08-17 07:30:50,144 - __main__ - INFO - Starting malaria prediction pipeline
+2025-08-17 07:30:50,560 - __main__ - ERROR - Error in model training: Cannot have number of folds=4 greater than the number of samples=2.
+2025-08-17 07:30:50,562 - __main__ - ERROR - Pipeline failed: Cannot have number of folds=4 greater than the number of samples=2.
+2025-08-17 08:00:03,016 - __main__ - INFO - Starting malaria prediction pipeline
+2025-08-17 08:00:03,412 - __main__ - WARNING - Small dataset (2 samples). Using simple train/val split.
+2025-08-17 08:00:03,816 - __main__ - INFO - Model evaluation metrics: {'mae': 10924.0, 'rmse': np.float64(10924.0), 'r2': nan, 'actual_vs_predicted': {'actual': [93216], 'predicted': [104140.0]}}
+2025-08-17 08:00:03,820 - __main__ - ERROR - Error in forecasting: 'PRECTOT_mean_Lag_2'
+2025-08-17 08:00:03,820 - __main__ - ERROR - Pipeline failed: 'PRECTOT_mean_Lag_2'
+2025-08-17 08:08:13,409 - __main__ - INFO - Starting malaria prediction pipeline
+2025-08-17 08:08:13,798 - __main__ - WARNING - Small dataset (2 samples). Using simple train/val split.
+2025-08-17 08:08:14,297 - __main__ - INFO - Model evaluation metrics: {'mae': 10924.0, 'rmse': np.float64(10924.0), 'r2': nan, 'actual_vs_predicted': {'actual': [93216], 'predicted': [104140.0]}}
+2025-08-17 08:08:14,300 - __main__ - ERROR - Error in forecasting: 'T2M_Lag_2'
+2025-08-17 08:08:14,300 - __main__ - ERROR - Pipeline failed: 'T2M_Lag_2'
+2025-08-17 09:44:59,388 - __main__ - INFO - Starting malaria prediction pipeline
+2025-08-17 09:44:59,787 - __main__ - INFO - Created features: ['Year', 'Total Cases', 'T2M_mean', 'T2M_std', 'T2M_max', 'T2M_min', 'RH2M_mean', 'RH2M_std', 'PRECTOTCORR_sum', 'PRECTOTCORR_mean', 'PRECTOTCORR_max', 'Total Cases_Lag_1', 'Total Cases_Lag_2', 'Total Cases_Lag_3', 'T2M_mean_Lag_1', 'T2M_mean_Lag_2', 'T2M_mean_Lag_3', 'RH2M_mean_Lag_1', 'RH2M_mean_Lag_2', 'RH2M_mean_Lag_3', 'PRECTOTCORR_sum_Lag_1', 'PRECTOTCORR_sum_Lag_2', 'PRECTOTCORR_sum_Lag_3', 'Total Cases_RollingMean_2', 'Total Cases_RollingStd_2', 'Total Cases_RollingMean_3', 'Total Cases_RollingStd_3', 'Total Cases_YoY']
+2025-08-17 09:44:59,789 - __main__ - WARNING - Small dataset (2 samples). Using simple train/val split.
+2025-08-17 09:45:00,369 - __main__ - INFO - Model evaluation metrics: {'mae': 10924.0, 'rmse': np.float64(10924.0), 'r2': nan, 'actual_vs_predicted': {'actual': [93216], 'predicted': [104140.0]}}
+2025-08-17 09:45:00,370 - __main__ - INFO - Model expects features: ['T2M_mean', 'T2M_std', 'T2M_max', 'T2M_min', 'RH2M_mean', 'RH2M_std', 'PRECTOTCORR_sum', 'PRECTOTCORR_mean', 'PRECTOTCORR_max', 'Total Cases_Lag_1', 'Total Cases_Lag_2', 'Total Cases_Lag_3', 'T2M_mean_Lag_1', 'T2M_mean_Lag_2', 'T2M_mean_Lag_3', 'RH2M_mean_Lag_1', 'RH2M_mean_Lag_2', 'RH2M_mean_Lag_3', 'PRECTOTCORR_sum_Lag_1', 'PRECTOTCORR_sum_Lag_2', 'PRECTOTCORR_sum_Lag_3', 'Total Cases_RollingMean_2', 'Total Cases_RollingStd_2', 'Total Cases_RollingMean_3', 'Total Cases_RollingStd_3', 'Total Cases_YoY']
+2025-08-17 09:45:00,370 - __main__ - INFO - Available features in df: ['Year', 'Total Cases', 'T2M_mean', 'T2M_std', 'T2M_max', 'T2M_min', 'RH2M_mean', 'RH2M_std', 'PRECTOTCORR_sum', 'PRECTOTCORR_mean', 'PRECTOTCORR_max', 'Total Cases_Lag_1', 'Total Cases_Lag_2', 'Total Cases_Lag_3', 'T2M_mean_Lag_1', 'T2M_mean_Lag_2', 'T2M_mean_Lag_3', 'RH2M_mean_Lag_1', 'RH2M_mean_Lag_2', 'RH2M_mean_Lag_3', 'PRECTOTCORR_sum_Lag_1', 'PRECTOTCORR_sum_Lag_2', 'PRECTOTCORR_sum_Lag_3', 'Total Cases_RollingMean_2', 'Total Cases_RollingStd_2', 'Total Cases_RollingMean_3', 'Total Cases_RollingStd_3', 'Total Cases_YoY']
+2025-08-17 09:45:00,376 - __main__ - WARNING - Missing features in forecast: {'RH2M_std', 'Total Cases_YoY', 'T2M_max', 'T2M_std', 'PRECTOTCORR_mean', 'PRECTOTCORR_max', 'T2M_min'}
+2025-08-17 09:45:00,386 - __main__ - ERROR - Error in forecasting: feature_names mismatch: ['T2M_mean', 'T2M_std', 'T2M_max', 'T2M_min', 'RH2M_mean', 'RH2M_std', 'PRECTOTCORR_sum', 'PRECTOTCORR_mean', 'PRECTOTCORR_max', 'Total Cases_Lag_1', 'Total Cases_Lag_2', 'Total Cases_Lag_3', 'T2M_mean_Lag_1', 'T2M_mean_Lag_2', 'T2M_mean_Lag_3', 'RH2M_mean_Lag_1', 'RH2M_mean_Lag_2', 'RH2M_mean_Lag_3', 'PRECTOTCORR_sum_Lag_1', 'PRECTOTCORR_sum_Lag_2', 'PRECTOTCORR_sum_Lag_3', 'Total Cases_RollingMean_2', 'Total Cases_RollingStd_2', 'Total Cases_RollingMean_3', 'Total Cases_RollingStd_3', 'Total Cases_YoY'] ['T2M_mean', 'RH2M_mean', 'PRECTOTCORR_sum', 'Total Cases_Lag_1', 'T2M_mean_Lag_1', 'RH2M_mean_Lag_1', 'PRECTOTCORR_sum_Lag_1', 'Total Cases_Lag_2', 'T2M_mean_Lag_2', 'RH2M_mean_Lag_2', 'PRECTOTCORR_sum_Lag_2', 'Total Cases_Lag_3', 'T2M_mean_Lag_3', 'RH2M_mean_Lag_3', 'PRECTOTCORR_sum_Lag_3', 'Total Cases_RollingMean_2', 'Total Cases_RollingStd_2', 'Total Cases_RollingMean_3', 'Total Cases_RollingStd_3', 'RH2M_std', 'Total Cases_YoY', 'T2M_max', 'T2M_std', 'PRECTOTCORR_mean', 'PRECTOTCORR_max', 'T2M_min']
+2025-08-17 09:45:00,388 - __main__ - ERROR - Pipeline failed: feature_names mismatch: ['T2M_mean', 'T2M_std', 'T2M_max', 'T2M_min', 'RH2M_mean', 'RH2M_std', 'PRECTOTCORR_sum', 'PRECTOTCORR_mean', 'PRECTOTCORR_max', 'Total Cases_Lag_1', 'Total Cases_Lag_2', 'Total Cases_Lag_3', 'T2M_mean_Lag_1', 'T2M_mean_Lag_2', 'T2M_mean_Lag_3', 'RH2M_mean_Lag_1', 'RH2M_mean_Lag_2', 'RH2M_mean_Lag_3', 'PRECTOTCORR_sum_Lag_1', 'PRECTOTCORR_sum_Lag_2', 'PRECTOTCORR_sum_Lag_3', 'Total Cases_RollingMean_2', 'Total Cases_RollingStd_2', 'Total Cases_RollingMean_3', 'Total Cases_RollingStd_3', 'Total Cases_YoY'] ['T2M_mean', 'RH2M_mean', 'PRECTOTCORR_sum', 'Total Cases_Lag_1', 'T2M_mean_Lag_1', 'RH2M_mean_Lag_1', 'PRECTOTCORR_sum_Lag_1', 'Total Cases_Lag_2', 'T2M_mean_Lag_2', 'RH2M_mean_Lag_2', 'PRECTOTCORR_sum_Lag_2', 'Total Cases_Lag_3', 'T2M_mean_Lag_3', 'RH2M_mean_Lag_3', 'PRECTOTCORR_sum_Lag_3', 'Total Cases_RollingMean_2', 'Total Cases_RollingStd_2', 'Total Cases_RollingMean_3', 'Total Cases_RollingStd_3', 'RH2M_std', 'Total Cases_YoY', 'T2M_max', 'T2M_std', 'PRECTOTCORR_mean', 'PRECTOTCORR_max', 'T2M_min']
+2025-08-17 10:11:23,108 - __main__ - INFO - Starting malaria prediction pipeline
+2025-08-17 10:11:23,538 - __main__ - INFO - Created features: ['Year', 'Total Cases', 'T2M_mean', 'T2M_std', 'T2M_max', 'T2M_min', 'RH2M_mean', 'RH2M_std', 'PRECTOTCORR_sum', 'PRECTOTCORR_mean', 'PRECTOTCORR_max', 'Total Cases_Lag_1', 'Total Cases_Lag_2', 'Total Cases_Lag_3', 'T2M_mean_Lag_1', 'T2M_mean_Lag_2', 'T2M_mean_Lag_3', 'RH2M_mean_Lag_1', 'RH2M_mean_Lag_2', 'RH2M_mean_Lag_3', 'PRECTOTCORR_sum_Lag_1', 'PRECTOTCORR_sum_Lag_2', 'PRECTOTCORR_sum_Lag_3', 'Total Cases_RollingMean_2', 'Total Cases_RollingStd_2', 'Total Cases_RollingMean_3', 'Total Cases_RollingStd_3', 'Total Cases_YoY']
+2025-08-17 10:11:23,542 - __main__ - WARNING - Small dataset (2 samples). Using simple train/val split.
+2025-08-17 10:11:24,120 - __main__ - INFO - Model evaluation metrics: {'mae': 10924.0, 'rmse': np.float64(10924.0), 'r2': nan, 'actual_vs_predicted': {'actual': [93216], 'predicted': [104140.0]}}
+2025-08-17 10:11:24,121 - __main__ - INFO - Model expects features: ['T2M_mean', 'T2M_std', 'T2M_max', 'T2M_min', 'RH2M_mean', 'RH2M_std', 'PRECTOTCORR_sum', 'PRECTOTCORR_mean', 'PRECTOTCORR_max', 'Total Cases_Lag_1', 'Total Cases_Lag_2', 'Total Cases_Lag_3', 'T2M_mean_Lag_1', 'T2M_mean_Lag_2', 'T2M_mean_Lag_3', 'RH2M_mean_Lag_1', 'RH2M_mean_Lag_2', 'RH2M_mean_Lag_3', 'PRECTOTCORR_sum_Lag_1', 'PRECTOTCORR_sum_Lag_2', 'PRECTOTCORR_sum_Lag_3', 'Total Cases_RollingMean_2', 'Total Cases_RollingStd_2', 'Total Cases_RollingMean_3', 'Total Cases_RollingStd_3', 'Total Cases_YoY']
+2025-08-17 10:11:24,122 - __main__ - INFO - Available features in df: ['Year', 'Total Cases', 'T2M_mean', 'T2M_std', 'T2M_max', 'T2M_min', 'RH2M_mean', 'RH2M_std', 'PRECTOTCORR_sum', 'PRECTOTCORR_mean', 'PRECTOTCORR_max', 'Total Cases_Lag_1', 'Total Cases_Lag_2', 'Total Cases_Lag_3', 'T2M_mean_Lag_1', 'T2M_mean_Lag_2', 'T2M_mean_Lag_3', 'RH2M_mean_Lag_1', 'RH2M_mean_Lag_2', 'RH2M_mean_Lag_3', 'PRECTOTCORR_sum_Lag_1', 'PRECTOTCORR_sum_Lag_2', 'PRECTOTCORR_sum_Lag_3', 'Total Cases_RollingMean_2', 'Total Cases_RollingStd_2', 'Total Cases_RollingMean_3', 'Total Cases_RollingStd_3', 'Total Cases_YoY']
+2025-08-17 10:11:24,127 - __main__ - WARNING - Missing features in forecast: {'RH2M_std', 'T2M_max', 'Total Cases_YoY', 'PRECTOTCORR_max', 'PRECTOTCORR_mean', 'T2M_std', 'T2M_min'}
+2025-08-17 10:11:24,137 - __main__ - ERROR - Error in forecasting: feature_names mismatch: ['T2M_mean', 'T2M_std', 'T2M_max', 'T2M_min', 'RH2M_mean', 'RH2M_std', 'PRECTOTCORR_sum', 'PRECTOTCORR_mean', 'PRECTOTCORR_max', 'Total Cases_Lag_1', 'Total Cases_Lag_2', 'Total Cases_Lag_3', 'T2M_mean_Lag_1', 'T2M_mean_Lag_2', 'T2M_mean_Lag_3', 'RH2M_mean_Lag_1', 'RH2M_mean_Lag_2', 'RH2M_mean_Lag_3', 'PRECTOTCORR_sum_Lag_1', 'PRECTOTCORR_sum_Lag_2', 'PRECTOTCORR_sum_Lag_3', 'Total Cases_RollingMean_2', 'Total Cases_RollingStd_2', 'Total Cases_RollingMean_3', 'Total Cases_RollingStd_3', 'Total Cases_YoY'] ['T2M_mean', 'RH2M_mean', 'PRECTOTCORR_sum', 'Total Cases_Lag_1', 'T2M_mean_Lag_1', 'RH2M_mean_Lag_1', 'PRECTOTCORR_sum_Lag_1', 'Total Cases_Lag_2', 'T2M_mean_Lag_2', 'RH2M_mean_Lag_2', 'PRECTOTCORR_sum_Lag_2', 'Total Cases_Lag_3', 'T2M_mean_Lag_3', 'RH2M_mean_Lag_3', 'PRECTOTCORR_sum_Lag_3', 'Total Cases_RollingMean_2', 'Total Cases_RollingStd_2', 'Total Cases_RollingMean_3', 'Total Cases_RollingStd_3', 'RH2M_std', 'T2M_max', 'Total Cases_YoY', 'PRECTOTCORR_max', 'PRECTOTCORR_mean', 'T2M_std', 'T2M_min']
+2025-08-17 10:11:24,140 - __main__ - ERROR - Pipeline failed: feature_names mismatch: ['T2M_mean', 'T2M_std', 'T2M_max', 'T2M_min', 'RH2M_mean', 'RH2M_std', 'PRECTOTCORR_sum', 'PRECTOTCORR_mean', 'PRECTOTCORR_max', 'Total Cases_Lag_1', 'Total Cases_Lag_2', 'Total Cases_Lag_3', 'T2M_mean_Lag_1', 'T2M_mean_Lag_2', 'T2M_mean_Lag_3', 'RH2M_mean_Lag_1', 'RH2M_mean_Lag_2', 'RH2M_mean_Lag_3', 'PRECTOTCORR_sum_Lag_1', 'PRECTOTCORR_sum_Lag_2', 'PRECTOTCORR_sum_Lag_3', 'Total Cases_RollingMean_2', 'Total Cases_RollingStd_2', 'Total Cases_RollingMean_3', 'Total Cases_RollingStd_3', 'Total Cases_YoY'] ['T2M_mean', 'RH2M_mean', 'PRECTOTCORR_sum', 'Total Cases_Lag_1', 'T2M_mean_Lag_1', 'RH2M_mean_Lag_1', 'PRECTOTCORR_sum_Lag_1', 'Total Cases_Lag_2', 'T2M_mean_Lag_2', 'RH2M_mean_Lag_2', 'PRECTOTCORR_sum_Lag_2', 'Total Cases_Lag_3', 'T2M_mean_Lag_3', 'RH2M_mean_Lag_3', 'PRECTOTCORR_sum_Lag_3', 'Total Cases_RollingMean_2', 'Total Cases_RollingStd_2', 'Total Cases_RollingMean_3', 'Total Cases_RollingStd_3', 'RH2M_std', 'T2M_max', 'Total Cases_YoY', 'PRECTOTCORR_max', 'PRECTOTCORR_mean', 'T2M_std', 'T2M_min']
+2025-08-17 10:28:08,381 - __main__ - INFO - Starting malaria prediction pipeline
+2025-08-17 10:28:08,382 - __main__ - ERROR - Error loading data: Malaria data file not found: data\CLEANEDDATA.xlsx
+2025-08-17 10:28:08,382 - __main__ - ERROR - Pipeline failed: Malaria data file not found: data\CLEANEDDATA.xlsx
+2025-08-17 10:30:15,152 - __main__ - INFO - Starting malaria prediction pipeline
+2025-08-17 10:30:15,540 - __main__ - INFO - Created features: ['Year', 'Total Cases', 'T2M_mean', 'T2M_std', 'T2M_max', 'T2M_min', 'RH2M_mean', 'RH2M_std', 'PRECTOTCORR_sum', 'PRECTOTCORR_mean', 'PRECTOTCORR_max', 'Total Cases_Lag_1', 'Total Cases_Lag_2', 'Total Cases_Lag_3', 'T2M_mean_Lag_1', 'T2M_mean_Lag_2', 'T2M_mean_Lag_3', 'RH2M_mean_Lag_1', 'RH2M_mean_Lag_2', 'RH2M_mean_Lag_3', 'PRECTOTCORR_sum_Lag_1', 'PRECTOTCORR_sum_Lag_2', 'PRECTOTCORR_sum_Lag_3', 'Total Cases_RollingMean_2', 'Total Cases_RollingStd_2', 'Total Cases_RollingMean_3', 'Total Cases_RollingStd_3', 'Total Cases_YoY']
+2025-08-17 10:30:15,544 - __main__ - WARNING - Small dataset (2 samples). Using simple train/val split.
+2025-08-17 10:30:15,964 - __main__ - INFO - Model evaluation metrics: {'mae': 10924.0, 'rmse': np.float64(10924.0), 'r2': nan, 'actual_vs_predicted': {'actual': [93216], 'predicted': [104140.0]}}
+2025-08-17 10:30:15,966 - __main__ - INFO - Model expects features: ['T2M_mean', 'T2M_std', 'T2M_max', 'T2M_min', 'RH2M_mean', 'RH2M_std', 'PRECTOTCORR_sum', 'PRECTOTCORR_mean', 'PRECTOTCORR_max', 'Total Cases_Lag_1', 'Total Cases_Lag_2', 'Total Cases_Lag_3', 'T2M_mean_Lag_1', 'T2M_mean_Lag_2', 'T2M_mean_Lag_3', 'RH2M_mean_Lag_1', 'RH2M_mean_Lag_2', 'RH2M_mean_Lag_3', 'PRECTOTCORR_sum_Lag_1', 'PRECTOTCORR_sum_Lag_2', 'PRECTOTCORR_sum_Lag_3', 'Total Cases_RollingMean_2', 'Total Cases_RollingStd_2', 'Total Cases_RollingMean_3', 'Total Cases_RollingStd_3', 'Total Cases_YoY']
+2025-08-17 10:30:15,967 - __main__ - INFO - Available features in df: ['Year', 'Total Cases', 'T2M_mean', 'T2M_std', 'T2M_max', 'T2M_min', 'RH2M_mean', 'RH2M_std', 'PRECTOTCORR_sum', 'PRECTOTCORR_mean', 'PRECTOTCORR_max', 'Total Cases_Lag_1', 'Total Cases_Lag_2', 'Total Cases_Lag_3', 'T2M_mean_Lag_1', 'T2M_mean_Lag_2', 'T2M_mean_Lag_3', 'RH2M_mean_Lag_1', 'RH2M_mean_Lag_2', 'RH2M_mean_Lag_3', 'PRECTOTCORR_sum_Lag_1', 'PRECTOTCORR_sum_Lag_2', 'PRECTOTCORR_sum_Lag_3', 'Total Cases_RollingMean_2', 'Total Cases_RollingStd_2', 'Total Cases_RollingMean_3', 'Total Cases_RollingStd_3', 'Total Cases_YoY']
+2025-08-17 10:30:15,971 - __main__ - WARNING - Missing features in forecast: {'T2M_max', 'T2M_min', 'T2M_std', 'PRECTOTCORR_mean', 'RH2M_std', 'PRECTOTCORR_max'}
+2025-08-17 10:30:15,982 - __main__ - ERROR - Error in forecasting: feature_names mismatch: ['T2M_mean', 'T2M_std', 'T2M_max', 'T2M_min', 'RH2M_mean', 'RH2M_std', 'PRECTOTCORR_sum', 'PRECTOTCORR_mean', 'PRECTOTCORR_max', 'Total Cases_Lag_1', 'Total Cases_Lag_2', 'Total Cases_Lag_3', 'T2M_mean_Lag_1', 'T2M_mean_Lag_2', 'T2M_mean_Lag_3', 'RH2M_mean_Lag_1', 'RH2M_mean_Lag_2', 'RH2M_mean_Lag_3', 'PRECTOTCORR_sum_Lag_1', 'PRECTOTCORR_sum_Lag_2', 'PRECTOTCORR_sum_Lag_3', 'Total Cases_RollingMean_2', 'Total Cases_RollingStd_2', 'Total Cases_RollingMean_3', 'Total Cases_RollingStd_3', 'Total Cases_YoY'] ['T2M_mean', 'RH2M_mean', 'PRECTOTCORR_sum', 'Total Cases_Lag_1', 'T2M_mean_Lag_1', 'RH2M_mean_Lag_1', 'PRECTOTCORR_sum_Lag_1', 'Total Cases_Lag_2', 'T2M_mean_Lag_2', 'RH2M_mean_Lag_2', 'PRECTOTCORR_sum_Lag_2', 'Total Cases_Lag_3', 'T2M_mean_Lag_3', 'RH2M_mean_Lag_3', 'PRECTOTCORR_sum_Lag_3', 'Total Cases_RollingMean_2', 'Total Cases_RollingStd_2', 'Total Cases_RollingMean_3', 'Total Cases_RollingStd_3', 'Total Cases_YoY', 'T2M_max', 'T2M_min', 'T2M_std', 'PRECTOTCORR_mean', 'RH2M_std', 'PRECTOTCORR_max']
+2025-08-17 10:30:15,984 - __main__ - ERROR - Pipeline failed: feature_names mismatch: ['T2M_mean', 'T2M_std', 'T2M_max', 'T2M_min', 'RH2M_mean', 'RH2M_std', 'PRECTOTCORR_sum', 'PRECTOTCORR_mean', 'PRECTOTCORR_max', 'Total Cases_Lag_1', 'Total Cases_Lag_2', 'Total Cases_Lag_3', 'T2M_mean_Lag_1', 'T2M_mean_Lag_2', 'T2M_mean_Lag_3', 'RH2M_mean_Lag_1', 'RH2M_mean_Lag_2', 'RH2M_mean_Lag_3', 'PRECTOTCORR_sum_Lag_1', 'PRECTOTCORR_sum_Lag_2', 'PRECTOTCORR_sum_Lag_3', 'Total Cases_RollingMean_2', 'Total Cases_RollingStd_2', 'Total Cases_RollingMean_3', 'Total Cases_RollingStd_3', 'Total Cases_YoY'] ['T2M_mean', 'RH2M_mean', 'PRECTOTCORR_sum', 'Total Cases_Lag_1', 'T2M_mean_Lag_1', 'RH2M_mean_Lag_1', 'PRECTOTCORR_sum_Lag_1', 'Total Cases_Lag_2', 'T2M_mean_Lag_2', 'RH2M_mean_Lag_2', 'PRECTOTCORR_sum_Lag_2', 'Total Cases_Lag_3', 'T2M_mean_Lag_3', 'RH2M_mean_Lag_3', 'PRECTOTCORR_sum_Lag_3', 'Total Cases_RollingMean_2', 'Total Cases_RollingStd_2', 'Total Cases_RollingMean_3', 'Total Cases_RollingStd_3', 'Total Cases_YoY', 'T2M_max', 'T2M_min', 'T2M_std', 'PRECTOTCORR_mean', 'RH2M_std', 'PRECTOTCORR_max']
+2025-08-17 10:34:45,749 - __main__ - INFO - Starting malaria prediction pipeline
+2025-08-17 10:34:46,184 - __main__ - INFO - Created features: ['Year', 'Total Cases', 'T2M_mean', 'T2M_std', 'T2M_max', 'T2M_min', 'RH2M_mean', 'RH2M_std', 'PRECTOTCORR_sum', 'PRECTOTCORR_mean', 'PRECTOTCORR_max', 'Total Cases_Lag_1', 'Total Cases_Lag_2', 'Total Cases_Lag_3', 'T2M_mean_Lag_1', 'T2M_mean_Lag_2', 'T2M_mean_Lag_3', 'RH2M_mean_Lag_1', 'RH2M_mean_Lag_2', 'RH2M_mean_Lag_3', 'PRECTOTCORR_sum_Lag_1', 'PRECTOTCORR_sum_Lag_2', 'PRECTOTCORR_sum_Lag_3', 'Total Cases_RollingMean_2', 'Total Cases_RollingStd_2', 'Total Cases_RollingMean_3', 'Total Cases_RollingStd_3', 'Total Cases_YoY']
+2025-08-17 10:34:46,190 - __main__ - WARNING - Small dataset (2 samples). Using simple train/val split.
+2025-08-17 10:34:46,573 - __main__ - INFO - Model evaluation metrics: {'mae': 10924.0, 'rmse': np.float64(10924.0), 'r2': nan, 'actual_vs_predicted': {'actual': [93216], 'predicted': [104140.0]}}
+2025-08-17 10:34:47,079 - __main__ - INFO - Generated forecasts: {'2025': 104140, '2026': 104140, '2027': 104140, '2028': 104140, '2029': 104140}
+2025-08-17 10:34:47,136 - __main__ - WARNING - No feature importance available
+2025-08-17 10:34:48,470 - __main__ - INFO - Artifacts saved to output
+2025-08-17 10:34:48,470 - __main__ - INFO - Pipeline completed successfully
+2025-08-17 10:42:54,977 - __main__ - INFO - Starting malaria prediction pipeline
+2025-08-17 10:42:55,346 - __main__ - INFO - Created features: ['Year', 'Total Cases', 'T2M_mean', 'T2M_std', 'T2M_max', 'T2M_min', 'RH2M_mean', 'RH2M_std', 'PRECTOTCORR_sum', 'PRECTOTCORR_mean', 'PRECTOTCORR_max', 'Total Cases_Lag_1', 'Total Cases_Lag_2', 'T2M_mean_Lag_1', 'T2M_mean_Lag_2', 'RH2M_mean_Lag_1', 'RH2M_mean_Lag_2', 'PRECTOTCORR_sum_Lag_1', 'PRECTOTCORR_sum_Lag_2', 'Total Cases_RollingMean_2', 'Total Cases_RollingStd_2', 'Total Cases_YoY', 'Temp_Humidity_Interaction', 'Temp_Precip_Interaction', 'Humidity_Precip_Interaction', 'Year_Trend']
+2025-08-17 10:42:55,346 - __main__ - INFO - Final dataset shape: (4, 26)
+2025-08-17 10:42:55,350 - __main__ - WARNING - Very small dataset (3 samples). Using simple models.
+2025-08-17 10:42:55,351 - __main__ - INFO - Trying linear model with standard scaler
+2025-08-17 10:42:55,398 - __main__ - INFO - Trying rf model with standard scaler
+2025-08-17 10:43:03,193 - __main__ - INFO - Trying linear model with robust scaler
+2025-08-17 10:43:03,218 - __main__ - INFO - Trying rf model with robust scaler
+2025-08-17 10:43:11,531 - __main__ - INFO - Trying linear model with none scaler
+2025-08-17 10:43:11,535 - __main__ - INFO - Trying rf model with none scaler
+2025-08-17 10:43:17,961 - __main__ - INFO - Selected linear model with standard scaler
+2025-08-17 10:43:17,962 - __main__ - INFO - Best validation MAE: 0.0
+2025-08-17 10:43:17,967 - __main__ - INFO - Model evaluation metrics: {'mae': 19762.560812558382, 'rmse': np.float64(19762.560812558382), 'r2': nan, 'actual_vs_predicted': {'actual': [93216], 'predicted': [112978.56081255838]}, 'model_type': 'linear', 'scaler_type': 'standard', 'validation_mae': 0.0}
+2025-08-17 10:43:17,991 - __main__ - INFO - Generated forecasts: {'2025': 111428, '2026': 111603, '2027': 112018, '2028': 112043, '2029': 112066}
+2025-08-17 10:43:18,502 - __main__ - INFO - Artifacts saved to output
+2025-08-17 10:43:18,502 - __main__ - INFO - Pipeline completed successfully
+2025-08-17 11:09:42,648 - __main__ - INFO - Starting malaria prediction pipeline
+2025-08-17 11:09:43,034 - __main__ - INFO - Created features: ['Year', 'Total Cases', 'T2M_mean', 'T2M_std', 'T2M_max', 'T2M_min', 'RH2M_mean', 'RH2M_std', 'PRECTOTCORR_sum', 'PRECTOTCORR_mean', 'PRECTOTCORR_max', 'Total Cases_Lag_1', 'Total Cases_Lag_2', 'T2M_mean_Lag_1', 'T2M_mean_Lag_2', 'RH2M_mean_Lag_1', 'RH2M_mean_Lag_2', 'PRECTOTCORR_sum_Lag_1', 'PRECTOTCORR_sum_Lag_2', 'Total Cases_RollingMean_2', 'Total Cases_RollingStd_2', 'Total Cases_YoY', 'Temp_Humidity_Interaction', 'Temp_Precip_Interaction', 'Humidity_Precip_Interaction', 'Year_Trend']
+2025-08-17 11:09:43,035 - __main__ - INFO - Final dataset shape: (4, 26)
+2025-08-17 11:09:43,039 - __main__ - WARNING - Very small dataset (3 samples). Using simple models.
+2025-08-17 11:09:43,040 - __main__ - INFO - Trying linear model with standard scaler
+2025-08-17 11:09:43,057 - __main__ - INFO - Trying rf model with standard scaler
+2025-08-17 11:09:49,965 - __main__ - INFO - Trying linear model with robust scaler
+2025-08-17 11:09:49,975 - __main__ - INFO - Trying rf model with robust scaler
+2025-08-17 11:09:59,400 - __main__ - INFO - Trying linear model with none scaler
+2025-08-17 11:09:59,406 - __main__ - INFO - Trying rf model with none scaler
+2025-08-17 11:10:07,690 - __main__ - INFO - Selected linear model with standard scaler
+2025-08-17 11:10:07,691 - __main__ - INFO - Best validation MAE: 0.0
+2025-08-17 11:10:07,698 - __main__ - INFO - Model evaluation metrics: {'mae': 19762.560812558382, 'rmse': np.float64(19762.560812558382), 'r2': nan, 'actual_vs_predicted': {'actual': [93216], 'predicted': [112978.56081255838]}, 'model_type': 'linear', 'scaler_type': 'standard', 'validation_mae': 0.0}
+2025-08-17 11:10:07,731 - __main__ - INFO - Generated forecasts: {'2025': 111428, '2026': 111603, '2027': 112018, '2028': 112043, '2029': 112066}
+2025-08-17 11:10:08,229 - __main__ - INFO - Artifacts saved to output
+2025-08-17 11:10:08,232 - __main__ - INFO - Pipeline completed successfully
+2025-08-17 11:57:17,932 - __main__ - INFO - Starting malaria prediction pipeline
+2025-08-17 11:57:18,223 - __main__ - INFO - Created features: ['Year', 'Total Cases', 'T2M_mean', 'T2M_std', 'T2M_max', 'T2M_min', 'RH2M_mean', 'RH2M_std', 'PRECTOTCORR_sum', 'PRECTOTCORR_mean', 'PRECTOTCORR_max', 'Total Cases_Lag_1', 'Total Cases_Lag_2', 'T2M_mean_Lag_1', 'T2M_mean_Lag_2', 'RH2M_mean_Lag_1', 'RH2M_mean_Lag_2', 'PRECTOTCORR_sum_Lag_1', 'PRECTOTCORR_sum_Lag_2', 'Total Cases_RollingMean_2', 'Total Cases_RollingStd_2', 'Total Cases_YoY', 'Temp_Humidity_Interaction', 'Temp_Precip_Interaction', 'Humidity_Precip_Interaction', 'Year_Trend']
+2025-08-17 11:57:18,225 - __main__ - INFO - Final dataset shape: (4, 26)
+2025-08-17 11:57:18,236 - __main__ - WARNING - Very small dataset (3 samples). Using simple models.
+2025-08-17 11:57:18,238 - __main__ - INFO - Trying linear model with standard scaler
+2025-08-17 11:57:18,262 - __main__ - INFO - Trying rf model with standard scaler
+2025-08-17 11:57:25,712 - __main__ - INFO - Trying linear model with robust scaler
+2025-08-17 11:57:25,723 - __main__ - INFO - Trying rf model with robust scaler
+2025-08-17 11:57:32,917 - __main__ - INFO - Trying linear model with none scaler
+2025-08-17 11:57:32,922 - __main__ - INFO - Trying rf model with none scaler
+2025-08-17 11:57:35,195 - __main__ - INFO - Starting malaria prediction pipeline
+2025-08-17 11:57:35,890 - __main__ - INFO - Created features: ['Year', 'Total Cases', 'T2M_mean', 'T2M_std', 'T2M_max', 'T2M_min', 'RH2M_mean', 'RH2M_std', 'PRECTOTCORR_sum', 'PRECTOTCORR_mean', 'PRECTOTCORR_max', 'Total Cases_Lag_1', 'Total Cases_Lag_2', 'T2M_mean_Lag_1', 'T2M_mean_Lag_2', 'RH2M_mean_Lag_1', 'RH2M_mean_Lag_2', 'PRECTOTCORR_sum_Lag_1', 'PRECTOTCORR_sum_Lag_2', 'Total Cases_RollingMean_2', 'Total Cases_RollingStd_2', 'Total Cases_YoY', 'Temp_Humidity_Interaction', 'Temp_Precip_Interaction', 'Humidity_Precip_Interaction', 'Year_Trend']
+2025-08-17 11:57:35,893 - __main__ - INFO - Final dataset shape: (4, 26)
+2025-08-17 11:57:35,902 - __main__ - WARNING - Very small dataset (3 samples). Using simple models.
+2025-08-17 11:57:35,905 - __main__ - INFO - Trying linear model with standard scaler
+2025-08-17 11:57:35,938 - __main__ - INFO - Trying rf model with standard scaler
+2025-08-17 11:57:51,238 - __main__ - INFO - Selected linear model with standard scaler
+2025-08-17 11:57:51,250 - __main__ - INFO - Best validation MAE: 0.0
+2025-08-17 11:57:51,276 - __main__ - WARNING - R² score is undefined for a single test sample. Using NaN.
+2025-08-17 11:57:51,294 - __main__ - INFO - Model evaluation metrics: {'mae': 19762.560812558382, 'rmse': np.float64(19762.560812558382), 'r2': nan, 'actual_vs_predicted': {'actual': [93216], 'predicted': [112978.56081255838]}, 'model_type': 'linear', 'scaler_type': 'standard', 'validation_mae': 0.0, 'test_years': [2024]}
+2025-08-17 11:57:51,333 - __main__ - INFO - Generated forecasts: {'2025': 111428, '2026': 111603, '2027': 112018, '2028': 112043, '2029': 112066}
+2025-08-17 11:57:52,512 - __main__ - INFO - Trying linear model with robust scaler
+2025-08-17 11:57:52,530 - __main__ - INFO - Trying rf model with robust scaler
+2025-08-17 11:57:55,144 - __main__ - INFO - Artifacts saved to output
+2025-08-17 11:57:55,169 - __main__ - INFO - Pipeline completed successfully
+2025-08-17 11:58:02,275 - __main__ - INFO - Trying linear model with none scaler
+2025-08-17 11:58:02,279 - __main__ - INFO - Trying rf model with none scaler
+2025-08-17 11:58:14,677 - __main__ - INFO - Selected linear model with standard scaler
+2025-08-17 11:58:14,678 - __main__ - INFO - Best validation MAE: 0.0
+2025-08-17 11:58:14,681 - __main__ - WARNING - R² score is undefined for a single test sample. Using NaN.
+2025-08-17 11:58:14,683 - __main__ - INFO - Model evaluation metrics: {'mae': 19762.560812558382, 'rmse': np.float64(19762.560812558382), 'r2': nan, 'actual_vs_predicted': {'actual': [93216], 'predicted': [112978.56081255838]}, 'model_type': 'linear', 'scaler_type': 'standard', 'validation_mae': 0.0, 'test_years': [2024]}
+2025-08-17 11:58:14,709 - __main__ - INFO - Generated forecasts: {'2025': 111428, '2026': 111603, '2027': 112018, '2028': 112043, '2029': 112066}
+2025-08-17 11:58:15,010 - __main__ - INFO - Artifacts saved to output
+2025-08-17 11:58:15,010 - __main__ - INFO - Pipeline completed successfully
+2025-08-17 11:59:25,735 - __main__ - INFO - Starting malaria prediction pipeline
+2025-08-17 11:59:26,122 - __main__ - INFO - Created features: ['Year', 'Total Cases', 'T2M_mean', 'T2M_std', 'T2M_max', 'T2M_min', 'RH2M_mean', 'RH2M_std', 'PRECTOTCORR_sum', 'PRECTOTCORR_mean', 'PRECTOTCORR_max', 'Total Cases_Lag_1', 'Total Cases_Lag_2', 'T2M_mean_Lag_1', 'T2M_mean_Lag_2', 'RH2M_mean_Lag_1', 'RH2M_mean_Lag_2', 'PRECTOTCORR_sum_Lag_1', 'PRECTOTCORR_sum_Lag_2', 'Total Cases_RollingMean_2', 'Total Cases_RollingStd_2', 'Total Cases_YoY', 'Temp_Humidity_Interaction', 'Temp_Precip_Interaction', 'Humidity_Precip_Interaction', 'Year_Trend']
+2025-08-17 11:59:26,122 - __main__ - INFO - Final dataset shape: (4, 26)
+2025-08-17 11:59:26,127 - __main__ - WARNING - Very small dataset (3 samples). Using simple models.
+2025-08-17 11:59:26,127 - __main__ - INFO - Trying linear model with standard scaler
+2025-08-17 11:59:26,136 - __main__ - INFO - Trying rf model with standard scaler
+2025-08-17 11:59:32,661 - __main__ - INFO - Trying linear model with robust scaler
+2025-08-17 11:59:32,672 - __main__ - INFO - Trying rf model with robust scaler
+2025-08-17 11:59:39,633 - __main__ - INFO - Trying linear model with none scaler
+2025-08-17 11:59:39,638 - __main__ - INFO - Trying rf model with none scaler
+2025-08-17 11:59:46,206 - __main__ - INFO - Selected linear model with standard scaler
+2025-08-17 11:59:46,207 - __main__ - INFO - Best validation MAE: 0.0
+2025-08-17 11:59:46,210 - __main__ - WARNING - R² score is undefined for a single test sample. Using NaN.
+2025-08-17 11:59:46,212 - __main__ - INFO - Model evaluation metrics: {'mae': 19762.560812558382, 'rmse': np.float64(19762.560812558382), 'r2': nan, 'actual_vs_predicted': {'actual': [93216], 'predicted': [112978.56081255838]}, 'model_type': 'linear', 'scaler_type': 'standard', 'validation_mae': 0.0, 'test_years': [2024]}
+2025-08-17 11:59:46,233 - __main__ - INFO - Generated forecasts: {'2025': 111428, '2026': 111603, '2027': 112018, '2028': 112043, '2029': 112066}
+2025-08-17 11:59:46,713 - __main__ - INFO - Artifacts saved to output
+2025-08-17 11:59:46,714 - __main__ - INFO - Pipeline completed successfully

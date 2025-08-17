@@ -1,0 +1,19 @@
+{
+    "mae": 19762.560812558382,
+    "rmse": 19762.560812558382,
+    "r2": NaN,
+    "actual_vs_predicted": {
+        "actual": [
+            93216
+        ],
+        "predicted": [
+            112978.56081255838
+        ]
+    },
+    "model_type": "linear",
+    "scaler_type": "standard",
+    "validation_mae": 0.0,
+    "test_years": [
+        2024
+    ]
+}
